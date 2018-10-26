@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btn_answer">#ff0000</color>
+    <color name="btn_answer_not">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="listening_yA">#fefb68</color>
+    <color name="listening_yB">#98fe68</color>
+    <color name="listening_yC">#68fef4</color>
+    <color name="listening_yD">#68c2fe</color>
+
+    <color name="yellow_light">#ffff00</color>
+    <color name="pink_light">#fc7e81</color>
+    <color name="vocabulary_wallpaper">#60000000</color>
+</resources>

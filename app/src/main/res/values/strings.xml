@@ -1,0 +1,1515 @@
+<?xml version="1.0"?>
+    <resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">English for everybody</string>
+
+    //Tien thuong
+    <string name="cau1">100.000 VND</string>
+    <string name="cau2">300.000 VND</string>
+    <string name="cau3">500.000 VND</string>
+    <string name="cau4">1.000.000 VND</string>
+    <string name="cau5">2.000.000 VND</string>
+    <string name="cau6">4.000.000 VND</string>
+    <string name="cau7">6.000.000 VND</string>
+    <string name="cau8">10.000.000 VND</string>
+    <string name="cau9">15.000.000 VND</string>
+    <string name="cau10">30.000.000 VND</string>
+    <string name="cau11">40.000.000 VND</string>
+    <string name="cau12">50.000.000 VND</string>
+    <string name="cau13">70.000.000 VND</string>
+    <string name="cau14">100.000.000 VND</string>
+    <string name="cau15">150.000.000 VND</string>
+
+
+
+    //__________Listening __________________________
+    //Start
+    //Number of question
+    <string name="lis_c1">0 Point</string>
+    <string name="lis_c2">10 Point</string>
+    <string name="lis_c3">20 Point</string>
+    <string name="lis_c4">30 Point</string>
+    <string name="lis_c5">40 Point</string>
+    <string name="lis_c6">50 Point</string>
+    <string name="lis_c7">60 Point</string>
+    <string name="lis_c8">70 Point</string>
+    <string name="lis_c9">80 Point</string>
+    <string name="lis_c10">90 Point</string>
+    <string name="lis_c11">100 Point</string>
+    <string name="lis_c12">110 Point</string>
+    <string name="lis_c13">120 Point</string>
+    <string name="lis_c14">130 Point</string>
+    <string name="lis_c15">140 Point</string>
+    <string name="lis_c16">150 Point</string>
+    <string name="lis_c17">160 Point</string>
+    <string name="lis_c18">170 Point</string>
+    <string name="lis_c19">180 Point</string>
+    <string name="lis_c20">190 Point</string>
+    <string name="lis_c21">200 Point</string>
+    <string name="lis_c22">210 Point</string>
+    <string name="lis_c23">220 Point</string>
+    <string name="lis_c24">230 Point</string>
+    <string name="lis_c25">240 Point</string>
+
+    <string name="listening_start">Game will begin after you click start</string>
+    //Bai 1
+    //b1-1
+    <string name="lis_ques_1_1">The alarm.... at 4:30.I get up and....to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="ques_1a1">go off</string>
+    <string name="ques_1b1">goes off</string>
+    <string name="ques_1c1">go of</string>
+    <string name="ques_1d1">sold off</string>
+    <string name="lis_dac1_1">2</string>
+
+    //b1-2
+    <string name="lis_ques_1_2">The alarm goes off at 4:30.I get up and....to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="ques_1a2">go down</string>
+    <string name="ques_1b2">goes down</string>
+    <string name="ques_1c2">go sound</string>
+    <string name="ques_1d2">went out</string>
+    <string name="lis_dac1_2">1</string>
+
+    //b1-3
+    <string name="lis_ques_1_3">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="ques_1a3">seven</string>
+    <string name="ques_1b3">some</string>
+    <string name="ques_1c3">several</string>
+    <string name="ques_1d3">many</string>
+    <string name="lis_dac1_3">3</string>
+
+    //b1-4
+    <string name="lis_ques_1_4">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink several cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="ques_1a4">15 minutes</string>
+    <string name="ques_1b4">45 minutes</string>
+    <string name="ques_1c4">30 minutes</string>
+    <string name="ques_1d4">50 minutes</string>
+    <string name="lis_dac1_4">2</string>
+
+    //b1-5
+    <string name="lis_ques_1_5">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink several cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me 45 minutes to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="ques_1a5">5:15</string>
+    <string name="ques_1b5">5:35</string>
+    <string name="ques_1c5">5:45</string>
+    <string name="ques_1d5">5:30</string>
+    <string name="lis_dac1_5">4</string>
+
+
+
+    //Bai 2
+    //b2-1
+    <string name="lis_ques_2_1">Mr.Lam usually gets up early</string>
+    <string name="ques_2a1">true</string>
+    <string name="ques_2b1">false</string>
+    <string name="lis_dac2_1">1</string>
+
+    //b2-2
+    <string name="lis_ques_2_2">After Mr.Lam gets up,he rides his cyclo from District 5 to District 1</string>
+    <string name="ques_2a2">true</string>
+    <string name="ques_2b2">false</string>
+    <string name="lis_dac2_2">2</string>
+
+    //b2-3
+    <string name="lis_ques_2_3" >Mr.Lam\'s passengers are two pupils</string>
+    <string name="ques_2a3">true</string>
+    <string name="ques_2b3">false</string>
+    <string name="lis_dac2_3">2</string>
+
+    //b2-4
+    <string name="lis_ques_2_4">Mr.Lam has lunch at home with his family</string>
+    <string name="ques_2a4">true</string>
+    <string name="ques_2b4">false</string>
+    <string name="lis_dac2_4">2</string>
+
+    //b2-5
+    <string name="lis_ques_2_5">After lunch Mr.lam immediately goes back to work.</string>
+    <string name="ques_2a5">true</string>
+    <string name="ques_2b5">false</string>
+    <string name="lis_dac2_5">2</string>
+
+
+    //Bai 3
+    //b3-1
+    <string name="lis_ques_3_1" >Hello.My name\'s Nguyen Hong Phong.I\'m...years old.I\'m a student at Chu Van An High School.I am in class....with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="ques_3a1">fifteen</string>
+    <string name="ques_3b1">twelve</string>
+    <string name="ques_3c1">sixteen</string>
+    <string name="ques_3d1">thirteen</string>
+    <string name="lis_dac3_1">3</string>
+
+    //b3-2
+    <string name="lis_ques_3_2" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class....with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="ques_3a2">10A</string>
+    <string name="ques_3b2">11A</string>
+    <string name="ques_3c2">10D</string>
+    <string name="ques_3d2">12A</string>
+    <string name="lis_dac3_2">1</string>
+
+    //b3-3
+    <string name="lis_ques_3_3" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="ques_3a3">forty-five</string>
+    <string name="ques_3b3">fifty-five</string>
+    <string name="ques_3c3">thiry-five</string>
+    <string name="ques_3d3">fifty</string>
+    <string name="lis_dac3_3">1</string>
+
+    //b3-4
+    <string name="lis_ques_3_4" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with forty-five other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="ques_3a4">go on</string>
+    <string name="ques_3b4">so on</string>
+    <string name="ques_3c4">goes on</string>
+    <string name="ques_3d4">love on</string>
+    <string name="lis_dac3_4">2</string>
+
+    //b3-5
+    <string name="lis_ques_3_5" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with forty-five other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and so on.I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="ques_3a5">national</string>
+    <string name="ques_3b5">nation</string>
+    <string name="ques_3c5">nationaility</string>
+    <string name="ques_3d5">international</string>
+    <string name="lis_dac3_5">4</string>
+
+
+    //Bai 4
+    //b4-1
+    <string name="lis_ques_4_1">What is her name?</string>
+    <string name="ques_4a1">Phuong</string>
+    <string name="ques_4b1">Thuong</string>
+    <string name="ques_4c1">Huong</string>
+    <string name="ques_4d1">Hang</string>
+    <string name="lis_dac4_1">1</string>
+
+    //b4-2
+    <string name="lis_ques_4_2">What does she do?</string>
+    <string name="ques_4a2">a nurse</string>
+    <string name="ques_4b2">a teacher</string>
+    <string name="ques_4c2">a doctor</string>
+    <string name="ques_4d2">a dentist</string>
+    <string name="lis_dac4_2">2</string>
+
+
+    //b4-3
+    <string name="lis_ques_4_3">Where does she work?</string>
+    <string name="ques_4a3">Ha Giang</string>
+    <string name="ques_4b3">Thai Nguyuen</string>
+    <string name="ques_4c3">Ha Noi</string>
+    <string name="ques_4d3">Hung Yen</string>
+    <string name="lis_dac4_3">3</string>
+
+    //Bai 5
+    //b5-1
+    <string name="lis_ques_5_1">Who is Ha?</string>
+    <string name="ques_5a1">A farmer</string>
+    <string name="ques_5b1">a fatory worker</string>
+    <string name="ques_5c1">a teacher</string>
+    <string name="ques_5d1">Phong\'s father</string>
+    <string name="lis_dac5_1">4</string>
+
+    //b5-2
+    <string name="lis_ques_5_2">What does Mr.Ha worry about?</string>
+    <string name="ques_5a2">He worries about his son\'s safety</string>
+    <string name="ques_5b2">He worries about his work</string>
+    <string name="ques_5c2">He worries about his wife</string>
+    <string name="ques_5d2">He worries about money</string>
+    <string name="lis_dac5_2">1</string>
+
+    //Bai 6
+    //b6-1
+    <string name="lis_ques_6_1">When and where was Marrie Curie born?</string>
+    <string name="ques_6a1">She was born in Washington DC on October 7th,1867</string>
+    <string name="ques_6b1">She was born in Warsaw on December 8th,1867</string>
+    <string name="ques_6c1">She was born in Warsaw on November 7th,1868</string>
+    <string name="ques_6d1">She was born in Warsaw on November 7th 1867</string>
+    <string name="lis_dac6_1">4</string>
+
+    //b6-2
+    <string name="lis_ques_6_2">What kind of student was she?</string>
+    <string name="ques_6a2">She was a brillant and mature student</string>
+    <string name="ques_6b2">She was a lazy student</string>
+    <string name="ques_6c2">She was a selfish student</string>
+    <string name="ques_6d2">She was a naughty student</string>
+    <string name="lis_dac6_2">1</string>
+
+    //b6-3
+    <string name="lis_ques_6_3">Why did she work as a private tutor?</string>
+    <string name="ques_6a3">To save money</string>
+    <string name="ques_6b3">To be rich</string>
+    <string name="ques_6c3">To help her family</string>
+    <string name="ques_6d3">To buy a house</string>
+    <string name="lis_dac6_3">1</string>
+
+    //b6-4
+    <string name="lis_ques_6_4">When did she meet Pierre Curie?</string>
+    <string name="ques_6a4">In 1890</string>
+    <string name="ques_6b4">In 1894</string>
+    <string name="ques_6c4">In 1895</string>
+    <string name="ques_6d4">In 1899</string>
+    <string name="lis_dac6_4">2</string>
+
+    //b6-5
+    <string name="lis_ques_6_5">For what service was she awarded a Nobel Prize in Chemistry?</string>
+    <string name="ques_6a5">For determining uranium</string>
+    <string name="ques_6b5">For determining diamond</string>
+    <string name="ques_6c5">For determining the atomic weight of radium</string>
+    <string name="ques_6d5">For determining the atomic weight of iron</string>
+    <string name="lis_dac6_5">3</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //---------------------------------------------------------------
+    // ________ question and answer for grammar ___________________
+    //Tense
+
+    //c1
+    <string name="grm_c1">He (go) to school everyday.</string>
+
+    <string name="grm_c1a">go</string>
+
+    <string name="grm_c1b">goes</string>
+
+    <string name="grm_c1c">went</string>
+
+    <string name="grm_c1d">gone</string>
+
+    <string name="dac1">2</string>
+    //c2
+    <string name="grm_c2">If you (work) hard, you will pass the exam </string>
+
+    <string name="grm_c2a">wors</string>
+
+    <string name="grm_c2b">worked</string>
+
+    <string name="grm_c2c">work</string>
+
+    <string name="grm_c2d">will work</string>
+
+    <string name="dac2">3</string>
+    //c3
+    <string name="grm_c3">The earth (go) around the sun</string>
+
+    <string name="grm_c3a">will go</string>
+
+    <string name="grm_c3b">goes</string>
+
+    <string name="grm_c3c">went</string>
+
+    <string name="grm_c3d">go</string>
+
+    <string name="dac3">2</string>
+    //c4
+    <string name="grm_c4">Keep silient! The baby (sleep)</string>
+
+    <string name="grm_c4a">sleep</string>
+
+    <string name="grm_c4b">sleeping</string>
+
+    <string name="grm_c4c">are sleeping</string>
+
+    <string name="grm_c4d">is sleeping</string>
+
+    <string name="dac4">4</string>
+    //c5
+    <string name="grm_c5">I (want) to go shopping now</string>
+
+    <string name="grm_c5a">want</string>
+
+    <string name="grm_c5b">will want</string>
+
+    <string name="grm_c5c">wanting</string>
+
+    <string name="grm_c5d">am wanting</string>
+
+    <string name="dac5">1</string>
+    //c6
+    <string name="grm_c6">She always (make) noises in class</string>
+
+    <string name="grm_c6a">makes</string>
+
+    <string name="grm_c6b">made</string>
+
+    <string name="grm_c6c">is always making</string>
+
+    <string name="grm_c6d">making</string>
+
+    <string name="dac6">3</string>
+    //c7
+    <string name="grm_c7">They (get) married at the end of this year</string>
+
+    <string name="grm_c7a">get</string>
+
+    <string name="grm_c7b">are getting</string>
+
+    <string name="grm_c7c">will get</string>
+
+    <string name="grm_c7d">would get</string>
+
+    <string name="dac7">2</string>
+    //c8
+    <string name="grm_c8" >A: Ohh! I\'ve just realised i haven\'t got any money\nB: Haven't you? Well, don't worry(I/lend) you some</string>
+
+    <string name="grm_c8a">I wil lend</string>
+
+    <string name="grm_c8b">I lend</string>
+
+    <string name="grm_c8c">I am lending</string>
+
+    <string name="grm_c8d" >I\'ve lent</string>
+
+    <string name="dac8">1</string>
+    //c9
+    <string name="grm_c9">A: I don\'t know how to use this camera/nB: It\'s quite cary. (I/show) you </string>
+
+    <string name="grm_c9a">I am showing</string>
+
+    <string name="grm_c9b">I will show</string>
+
+    <string name="grm_c9c" >I\'m going to show</string>
+
+    <string name="grm_c9d" >I\'ve show</string>
+
+    <string name="dac9">2</string>
+    //c10
+    <string name="grm_c10">A: I\'ve decided to repaint my room\nB: What colour (you/paint) it?</string>
+
+    <string name="grm_c10a">will paint</string>
+
+    <string name="grm_c10b">are you going to paint</string>
+
+    <string name="grm_c10c">are you painting</string>
+
+    <string name="grm_c10d">do you paint</string>
+
+    <string name="dac10">2</string>
+    //c11
+    <string name="grm_c11">Look at those black clouds. It (rain)</string>
+
+    <string name="grm_c11a">is raining</string>
+
+    <string name="grm_c11b">will rain</string>
+
+    <string name="grm_c11c">is going to rain</string>
+
+    <string name="grm_c11d">rain</string>
+
+    <string name="dac11">3</string>
+    //c12
+    <string name="grm_c12">I feel dizzy. I (be) ill</string>
+
+    <string name="grm_c12a">will be</string>
+
+    <string name="grm_c12b">am</string>
+
+    <string name="grm_c12c">am being</string>
+
+    <string name="grm_c12d">am going to be</string>
+
+    <string name="dac12">4</string>
+    //c13
+    <string name="grm_c13">We (have) have a barbecue but it rained all day</string>
+
+    <string name="grm_c13a">had</string>
+
+    <string name="grm_c13b">will have</string>
+
+    <string name="grm_c13c">was having</string>
+
+    <string name="grm_c13d">were going to have</string>
+
+    <string name="dac13">4</string>
+    //c14
+    <string name="grm_c14">How long you (have)to wait for him</string>
+
+    <string name="grm_c14a">did you have</string>
+
+    <string name="grm_c14b">have you had</string>
+
+    <string name="grm_c14c">do you have</string>
+
+    <string name="grm_c14d">will you have</string>
+
+    <string name="dac14">1</string>
+    //c15
+    <string name="grm_c15">How old you(be) when you (start) school?</string>
+
+    <string name="grm_c15a">were you/started</string>
+
+    <string name="grm_c15b">were you/start</string>
+
+    <string name="grm_c15c">are you/start</string>
+
+    <string name="grm_c15d">are you/started</string>
+
+    <string name="dac15">1</string>
+
+
+    //-----------------
+    //c16
+    <string name="grm_c16">I (do) my homework at 8 o\'clock last night</string>
+
+    <string name="grm_c16a">did</string>
+
+    <string name="grm_c16b">have done</string>
+
+    <string name="grm_c16c">do</string>
+
+    <string name="grm_c16d">was doing</string>
+
+    <string name="dac16">4</string>
+    //c17
+    <string name="grm_c17">I (read) a book while he (listen) to the radio</string>
+
+    <string name="grm_c17a">read/was listening</string>
+
+    <string name="grm_c17b">was reading/was listening</string>
+
+    <string name="grm_c17c">read/listened</string>
+
+    <string name="grm_c17d">was reading/listened</string>
+
+    <string name="dac17">2</string>
+    //c18
+    <string name="grm_c18">I (do) my homework</string>
+
+    <string name="grm_c18a">did</string>
+
+    <string name="grm_c18b">do</string>
+
+    <string name="grm_c18c">have done</string>
+
+    <string name="grm_c18d">will do</string>
+
+    <string name="dac18">3</string>
+    //c19
+    <string name="grm_c19">When I(take) the exam,i will go on holiday</string>
+
+    <string name="grm_c19a">have taken</string>
+
+    <string name="grm_c19b">took</string>
+
+    <string name="grm_c19c">take</string>
+
+    <string name="grm_c19d">would take</string>
+
+    <string name="dac19">1</string>
+    //c20
+    <string name="grm_c20">We cleaned up the room as soon as the guests (leave)</string>
+
+    <string name="grm_c20a">has left</string>
+
+    <string name="grm_c20b">had left</string>
+
+    <string name="grm_c20c">left</string>
+
+    <string name="grm_c20d">were leaving</string>
+
+    <string name="dac20">3</string>
+    //c21
+    <string name="grm_c21">Jane\'s eyes were red. She (cry)</string>
+
+    <string name="grm_c21a">cried</string>
+
+    <string name="grm_c21b">has cried</string>
+
+    <string name="grm_c21c">had been crying</string>
+
+    <string name="grm_c21d">had cried</string>
+
+    <string name="dac21">3</string>
+    //c22
+    <string name="grm_c22">Old Ted (smoke) twenty cigarettes a day till he gave up</string>
+
+    <string name="grm_c22a">had smoked</string>
+
+    <string name="grm_c22b">has smoked</string>
+
+    <string name="grm_c22c">smoked</string>
+
+    <string name="grm_c22d">smokes</string>
+
+    <string name="dac22">2</string>
+    //c23
+    <string name="grm_c23">By the time we( get) to the train station, Susan (wait)for us for more than two hours</string>
+
+    <string name="grm_c23a">got/was waiting</string>
+
+    <string name="grm_c23b">got/had been waiting</string>
+
+    <string name="grm_c23c">got/was waiting</string>
+
+    <string name="grm_c23d">get/will wait</string>
+
+    <string name="dac23">2</string>
+    //c24
+    <string name="grm_c24">The Titanic (cross) the Atlantic when it (strike) an iceberg</string>
+
+    <string name="grm_c24a">was crossing/struck</string>
+
+    <string name="grm_c24b">had crossed/was striking</string>
+
+    <string name="grm_c24c">is considering/strikes</string>
+
+    <string name="grm_c24d">crossed/had struck</string>
+
+    <string name="dac24">1</string>
+    //c25
+    <string name="grm_c25">If i (do) my homework last night, i wouldn\'t have got bad grade</string>
+
+    <string name="grm_c25a">did</string>
+
+    <string name="grm_c25b">has done</string>
+
+    <string name="grm_c25c">had gone</string>
+
+    <string name="grm_c25d">do</string>
+
+    <string name="dac25">3</string>
+    //c26
+    <string name="grm_c26">As he (have) dinner, i (come)</string>
+
+    <string name="grm_c26a">had/come</string>
+
+    <string name="grm_c26b">has/come</string>
+
+    <string name="grm_c26c">was having/came</string>
+
+    <string name="grm_c26d">had had/came</string>
+
+    <string name="dac26">3</string>
+    //c27
+    <string name="grm_c27">I didn\'t recognize Phuong. She (change)</string>
+
+    <string name="grm_c27a">changes</string>
+
+    <string name="grm_c27b">had changed</string>
+
+    <string name="grm_c27c">changed</string>
+
+    <string name="grm_c27d">has changed</string>
+
+    <string name="dac27">2</string>
+    //c28
+    <string name="grm_c28">When i got up. It (rain). It (rain) for a few hours</string>
+
+    <string name="grm_c28a">rained/has rained</string>
+
+    <string name="grm_c28b">rains/has been raining</string>
+
+    <string name="grm_c28c">was raining/has been raining</string>
+
+    <string name="grm_c28d">was raining/had been raining</string>
+
+    <string name="dac28">4</string>
+    //c29
+    <string name="grm_c29">The patient( already,die) by the time i (see) her.</string>
+
+    <string name="grm_c29a">has already died/see</string>
+
+    <string name="grm_c29b">had already died/saw</string>
+
+    <string name="grm_c29c">has been already died/saw</string>
+
+    <string name="grm_c29d">had been already died/ am seeing</string>
+
+    <string name="dac29">2</string>
+    //c30
+    <string name="grm_c30">By the end of this year, i (teach) for 10 years</string>
+
+    <string name="grm_c30a">have taught</string>
+
+    <string name="grm_c30b">have been teaching</string>
+
+    <string name="grm_c30c">will have been teaching</string>
+
+    <string name="grm_c30d">will teach</string>
+
+    <string name="dac30">3</string>
+    //Passive voice question
+    //31
+    <string name="grm_c31">People speak English here</string>
+    <string name="grm_c31a">English is spoken by people here</string>
+    <string name="grm_c31b">English is spoken here</string>
+    <string name="grm_c31c">English is spoke here</string>
+    <string name="grm_c31d">English is spoken by people</string>
+    <string name="dac31">2</string>
+
+    //32
+    <string name="grm_c32">Somebody cleans the room every day</string>
+    <string name="grm_c32a">The room every day is cleaned</string>
+    <string name="grm_c32b">The room is every day cleaned</string>
+    <string name="grm_c32c">The room is cleaned every day</string>
+    <string name="grm_c32d">The room is cleaned by somebody every day</string>
+    <string name="dac32">3</string>
+
+    //33
+    <string name="grm_c33">They are painting the house</string>
+    <string name="grm_c33a">The house is being painted</string>
+    <string name="grm_c33b">The house are painted</string>
+    <string name="grm_c33c">The house is painting by them</string>
+    <string name="grm_c33d">The house being painted</string>
+    <string name="dac33">1</string>
+
+    //34
+    <string name="grm_c34">They cancelled all flights because of fog</string>
+    <string name="grm_c34a">All flights because of fog were cancelled</string>
+    <string name="grm_c34b">All flights were cancelled by them because of fog</string>
+    <string name="grm_c34c">All flights were cancelled because of fog</string>
+    <string name="grm_c34d">All flights were because of fog cancelled</string>
+    <string name="dac34">3</string>
+
+    //35
+    <string name="grm_c35">My sister was baking the cakes</string>
+    <string name="grm_c35a">The cakes were baking by my sister</string>
+    <string name="grm_c35b">The cakes were being baking by my sister</string>
+    <string name="grm_c35c">The cakes wering baked by my sister</string>
+    <string name="grm_c35d">The cakes were being baked by my sister</string>
+    <string name="dac35">4</string>
+
+    //36
+    <string name="grm_c36">He hasn\'t worn the jacket for years</string>
+    <string name="grm_c36a">The jacket hasn\'t been worn for years</string>
+    <string name="grm_c36b" >The jacket hasn\'t worn for years</string>
+    <string name="grm_c36c">The jacket hasn\'t been worned for years</string>
+    <string name="grm_c36d" >The jacket hasn\'t been worning for years</string>
+    <string name="dac36">1</string>
+
+    //37
+    <string name="grm_c37">They had destroyed all the documents when we arrived</string>
+    <string name="grm_c37a">All the documents were destroyed by them when we arrived</string>
+    <string name="grm_c37b">All the documents had destroyed when we arrived</string>
+    <string name="grm_c37c">All the documents had been destroyed by them when we arrived</string>
+    <string name="grm_c37d">All the documents had been destroyed when we arrived</string>
+    <string name="dac37">4</string>
+
+    //38
+    <string name="grm_c38">We will be holding talks at this time next year</string>
+    <string name="grm_c38a">Talks will being hold at this time next year</string>
+    <string name="grm_c38b">Talks will be being hold at this time next year</string>
+    <string name="grm_c38c">Talks will held by us at this time next year</string>
+    <string name="grm_c38d">Talks will be hold by us at this time next year</string>
+    <string name="dac38">2</string>
+
+    //39
+    <string name="grm_c39">You will have finished this report by Tuesday</string>
+    <string name="grm_c39a">This report will be finished by Tuesday</string>
+    <string name="grm_c39b">This report will have been finished by Tuesday</string>
+    <string name="grm_c39c">This report will finish by Tuesday</string>
+    <string name="grm_c39d">This report will be finish by Tuesday</string>
+    <string name="dac39">2</string>
+
+    //40
+    <string name="grm_c40">The manager must sign the cheque</string>
+    <string name="grm_c40a">The cheque must be signed by the manager</string>
+    <string name="grm_c40b">The cheque musted by the manager sign</string>
+    <string name="grm_c40c">The cheque must be sign by the manager</string>
+    <string name="grm_c40d">The cheque must was signed</string>
+    <string name="dac40">1</string>
+
+    //41
+    <string name="grm_c41">I want you ti do it as soon as possible</string>
+    <string name="grm_c41a">You are wanted to do it by me as soon as possible</string>
+    <string name="grm_c41b">You are wanted by me to do it as soon as possible</string>
+    <string name="grm_c41c">I want it to be done as soon as possible</string>
+    <string name="grm_c41d">I want it to do by you as soon as possible</string>
+    <string name="dac41">3</string>
+
+    //42
+    <string name="grm_c42">We hope to have finished the job by next Sunday</string>
+    <string name="grm_c42a">The job is hoped by us to have finished by next Sunday</string>
+    <string name="grm_c42b">The job is hoped to have been finished by next Sunday</string>
+    <string name="grm_c42c">We hope the job will be finished by next Sunday</string>
+    <string name="grm_c42d">We hope the job to have been finished by next Sunday</string>
+    <string name="dac42">4</string>
+
+    //43
+    <string name="grm_c43" >I don\'t like people telling me what to do</string>
+    <string name="grm_c43a" >I don\'t like being told what to do</string>
+    <string name="grm_c43b" >People aren\'t liked telling me what to do</string>
+    <string name="grm_c43c" >People aren\'t liked by me telling me what to do</string>
+    <string name="grm_c43d" >I don\'t like telling me what to do by people</string>
+    <string name="dac43">1</string>
+
+    //44
+    <string name="grm_c44" >I didn\'t expect the police to find my car</string>
+    <string name="grm_c44a" >The police weren\'t expected to find my car by me</string>
+    <string name="grm_c44b" >The police weren\'t expected by me to find my car</string>
+    <string name="grm_c44c" >I didn\'t expect my car was found by the police</string>
+    <string name="grm_c44d" >I didn\'t expect my car to be found by the police</string>
+    <string name="dac44">4</string>
+
+    //45
+    <string name="grm_c45">He urged the Council to reduce the rates</string>
+    <string name="grm_c45a">He urged that the rates should be reduced</string>
+    <string name="grm_c45b">The Council was urged to reduce the rates</string>
+    <string name="grm_c45c">The Council was reduced the rates</string>
+    <string name="grm_c45d">Both A and B are correct</string>
+    <string name="dac45">4</string>
+
+    //46
+    <string name="grm_c46">He kept me waiting</string>
+    <string name="grm_c46a">I was kept to wait</string>
+    <string name="grm_c46b">I was kept to wait by him</string>
+    <string name="grm_c46c">I was kept waiting by him</string>
+    <string name="grm_c46d">I was kept being waited by him</string>
+    <string name="dac46">3</string>
+
+    //47
+    <string name="grm_c47">He decided to sell the house</string>
+    <string name="grm_c47a">The house was decided to sell by him</string>
+    <string name="grm_c47b">The house was decided to be sold by him</string>
+    <string name="grm_c47c">He decided that the house was sold</string>
+    <string name="grm_c47d">He decided that the house should be sold</string>
+    <string name="dac47">4</string>
+
+    //48
+    <string name="grm_c48">People say that he is a good doctor</string>
+    <string name="grm_c48a">He was said to be a good doctor</string>
+    <string name="grm_c48b">He is said to be a good doctor</string>
+    <string name="grm_c48c">It is said that he is a good doctor</string>
+    <string name="grm_c48d">Both B and C are correct</string>
+    <string name="dac48">4</string>
+
+    //49
+    <string name="grm_c49">They think that she works very hard</string>
+    <string name="grm_c49a">It is thought that she works very hard</string>
+    <string name="grm_c49b">It is said that she works very hard</string>
+    <string name="grm_c49c">It is thought that she worked very hard</string>
+    <string name="grm_c49d">No correct answers</string>
+    <string name="dac49">1</string>
+
+    //50
+    <string name="grm_c50" >It\'s children\'s duty to obey their parents</string>
+    <string name="grm_c50a">Children are obeyed to their parents</string>
+    <string name="grm_c50b">Children are supposed to obey their parents</string>
+    <string name="grm_c50c">Duty is obeyed by children to their parents</string>
+    <string name="grm_c50d">Both A and B are correct</string>
+    <string name="dac50">2</string>
+
+
+    //51
+    <string name="grm_c51">They arrange to meet us by taxi</string>
+    <string name="grm_c51a">We are arranged to be met by taxi by them</string>
+    <string name="grm_c51b">They arrange for us to be met by taxi</string>
+    <string name="grm_c51c">They arrange that we are met by taxi</string>
+    <string name="grm_c51d">Both B and C are correct</string>
+    <string name="dac51">2</string>
+
+
+    //52
+    <string name="grm_c52">People say that Henrry is in love with Claire</string>
+    <string name="grm_c52a">Henrry is said to be in love with Claire</string>
+    <string name="grm_c52b">Henrry is said by people in love with Claire</string>
+    <string name="grm_c52c">Claire is said to love Henrry</string>
+    <string name="grm_c52d">Hennry to be in love with Claire</string>
+    <string name="dac52">1</string>
+
+    //53
+    <string name="grm_c53">Write your name here</string>
+    <string name="grm_c53a">Your name is written here</string>
+    <string name="grm_c53b">Your name should be written here</string>
+    <string name="grm_c53c">Let your name be written here</string>
+    <string name="grm_c53d">No correct answers</string>
+    <string name="dac53">3</string>
+
+    //54
+    <string name="grm_c54" >Don\'t make so much noise</string>
+    <string name="grm_c54a" >So much noise isn\'t mzade</string>
+    <string name="grm_c54b">Let not so much noise be made</string>
+    <string name="grm_c54c" >Don\'t be so much noise made</string>
+    <string name="grm_c54d" >Don\'t let so much noise make</string>
+    <string name="dac54">2</string>
+
+    //55
+    <string name="grm_c55">They have a nice house</string>
+    <string name="grm_c55a">A nice house is had by them</string>
+    <string name="grm_c55b">A nice house is be had by them</string>
+    <string name="grm_c55c">They were had a nice house</string>
+    <string name="grm_c55d">No correct answers</string>
+    <string name="dac55">4</string>
+
+    //56
+    <string name="grm_c56">It is rumoured that some children were kidnapped last week</string>
+    <string name="grm_c56a">Some children are rumoured to have been kidnapped last week</string>
+    <string name="grm_c56b">Some children were rumoured to have kidnapped last week</string>
+    <string name="grm_c56c">Some children were rumoured to be kidnapped last weel</string>
+    <string name="grm_c56d">No correct answers</string>
+    <string name="dac56">1</string>
+
+    //57
+    <string name="grm_c57">I have my father repair my bike</string>
+    <string name="grm_c57a">My father is had to repair my bike by me</string>
+    <string name="grm_c57b">My father is had to have been repaired my bike</string>
+    <string name="grm_c57c">I have my bike repaired by my father</string>
+    <string name="grm_c57d">All are the correct answers</string>
+    <string name="dac57">3</string>
+
+    //58
+    <string name="grm_c58">He suggested that she buy a new car</string>
+    <string name="grm_c58a">She was suggested by him to buy a new car</string>
+    <string name="grm_c58b">She was suggested to buy a new car by him</string>
+    <string name="grm_c58c">It was suggested that she buy a new car</string>
+    <string name="grm_c58d">It was suggested that a new car be bought</string>
+    <string name="dac58">4</string>
+
+    //59
+    <string name="grm_c59">I will get Lan to do my homework</string>
+    <string name="grm_c59a">Lan will be got to do my homework by me</string>
+    <string name="grm_c59b">Lan will be done to do my homework by me</string>
+    <string name="grm_c59c">I will get Lan to be done my homework</string>
+    <string name="grm_c59d">I will get my homework done by Lan</string>
+    <string name="dac59">4</string>
+
+    //60
+    <string name="grm_c60">They were having dinner</string>
+    <string name="grm_c60a">Dinner was being had by them</string>
+    <string name="grm_c60b">Dinner was being had </string>
+    <string name="grm_c60c">Dinner is having by them</string>
+    <string name="grm_c60d">No correct answers</string>
+    <string name="dac60">4</string>
+
+
+    //Gerund and To V
+    //61
+    <string name="grm_c61">John wanted me (help) him</string>
+    <string name="grm_c61a">to help</string>
+    <string name="grm_c61b">help</string>
+    <string name="grm_c61c">helping</string>
+    <string name="grm_c61d">to be helping</string>
+    <string name="dac61">1</string>
+
+    //62
+    <string name="grm_c62">I hope......there</string>
+    <string name="grm_c62a">to see you</string>
+    <string name="grm_c62b">you to see</string>
+    <string name="grm_c62c">see you</string>
+    <string name="grm_c62d">seeing you</string>
+    <string name="dac62">1</string>
+
+    //63
+    <string name="grm_c63">My mother has decided.....a new phone</string>
+    <string name="grm_c63a">buy</string>
+    <string name="grm_c63b">to buy</string>
+    <string name="grm_c63c">buying</string>
+    <string name="grm_c63d">bought</string>
+    <string name="dac63">2</string>
+
+    //64
+    <string name="grm_c64">Would you mind...... off the fan?</string>
+    <string name="grm_c64a">turn</string>
+    <string name="grm_c64b">turning</string>
+    <string name="grm_c64c">to turn</string>
+    <string name="grm_c64d">to be turned</string>
+    <string name="dac64">2</string>
+
+    //65
+    <string name="grm_c65">..... is my favorite sport</string>
+    <string name="grm_c65a">Swimming</string>
+    <string name="grm_c65b">To swimming</string>
+    <string name="grm_c65c">swim</string>
+    <string name="grm_c65d">the swim</string>
+    <string name="dac65">1</string>
+
+    //66
+    <string name="grm_c66">After.....his homework,he went to bed</string>
+    <string name="grm_c66a">finishing</string>
+    <string name="grm_c66b">to finish</string>
+    <string name="grm_c66c">finish</string>
+    <string name="grm_c66d">be finished</string>
+    <string name="dac66">1</string>
+
+    //67
+    <string name="grm_c67">She suggests....on holiday but nobody agrees</string>
+    <string name="grm_c67a">going</string>
+    <string name="grm_c67b">go</string>
+    <string name="grm_c67c">to go</string>
+    <string name="grm_c67d">to going</string>
+    <string name="dac67">1</string>
+
+    //68
+    <string name="grm_c68">He is too short..... basketball</string>
+    <string name="grm_c68a">playing</string>
+    <string name="grm_c68b">play</string>
+    <string name="grm_c68c">to play</string>
+    <string name="grm_c68d">to playing</string>
+    <string name="dac68">3</string>
+
+    //69
+    <string name="grm_c69" >We don\'t know where.....</string>
+    <string name="grm_c69a">going</string>
+    <string name="grm_c69b">will go</string>
+    <string name="grm_c69c">to be gone</string>
+    <string name="grm_c69d">to go</string>
+    <string name="dac69">4</string>
+
+    //70
+    <string name="grm_c70" tools:ignore="StringEscaping">It is difficult for me.....his phone's passwork</string>
+    <string name="grm_c70a">finding out</string>
+    <string name="grm_c70b">to find out</string>
+    <string name="grm_c70c">find out</string>
+    <string name="grm_c70d">to be found out</string>
+    <string name="dac70">2</string>
+
+    //71
+    <string name="grm_c71">"I'll sell the TV set if you keep on.....it all day"said my father</string>
+    <string name="grm_c71a">watch</string>
+    <string name="grm_c71b">to watch</string>
+    <string name="grm_c71c">watching</string>
+    <string name="grm_c71d">watched</string>
+    <string name="dac71">3</string>
+
+    //72
+    <string name="grm_c72" tools:ignore="StringEscaping">She doesn't allow......in her house</string>
+    <string name="grm_c72a">smoke</string>
+    <string name="grm_c72b">smoking</string>
+    <string name="grm_c72c">to smoke</string>
+    <string name="grm_c72d">to be smoked</string>
+    <string name="dac72">2</string>
+
+    //73
+    <string name="grm_c73" tools:ignore="StringEscaping">I wish that dog would........It's driving me mad</string>
+    <string name="grm_c73a">stop/bark</string>
+    <string name="grm_c73b">stop/to bark</string>
+    <string name="grm_c73c">stop/barking</string>
+    <string name="grm_c73d">stopping/bark</string>
+    <string name="dac73">3</string>
+
+    //74
+    <string name="grm_c74" tools:ignore="StringEscaping">I'd like....., but i haven't got enough money.</string>
+    <string name="grm_c74a">to continue/to study</string>
+    <string name="grm_c74b">continue/study</string>
+    <string name="grm_c74c">continue/studying</string>
+    <string name="grm_c74d">to continue/studying</string>
+    <string name="dac74">4</string>
+
+    //75
+    <string name="grm_c75">I love...on my own and ....to music</string>
+    <string name="grm_c75a">being/listening</string>
+    <string name="grm_c75b">to be/listen</string>
+    <string name="grm_c75c">being/listen</string>
+    <string name="grm_c75d">be/to listen</string>
+    <string name="dac75">1</string>
+
+    //76
+    <string name="grm_c76" tools:ignore="StringEscaping">We can't afford.....vacation this summer</string>
+    <string name="grm_c76a">take</string>
+    <string name="grm_c76b">to take</string>
+    <string name="grm_c76c">taking</string>
+    <string name="grm_c76d">taken</string>
+    <string name="dac76">2</string>
+
+    //77
+    <string name="grm_c77">My mother gets me.....some flowers</string>
+    <string name="grm_c77a">to buy</string>
+    <string name="grm_c77b">buy</string>
+    <string name="grm_c77c">bought</string>
+    <string name="grm_c77d">buying</string>
+    <string name="dac77">1</string>
+
+    //78
+    <string name="grm_c78">I get used to....late in every Sunday morning</string>
+    <string name="grm_c78a">get up</string>
+    <string name="grm_c78b">be got up</string>
+    <string name="grm_c78c">getting up</string>
+    <string name="grm_c78d">be getting up</string>
+    <string name="dac78">3</string>
+
+    //79
+    <string name="grm_c79">It was such dirty beach that we dicide......</string>
+    <string name="grm_c79a" tools:ignore="StringEscaping">don't stay</string>
+    <string name="grm_c79b">to not stay</string>
+    <string name="grm_c79c">not staying</string>
+    <string name="grm_c79d">not to stay</string>
+    <string name="dac79">4</string>
+
+    //80
+    <string name="grm_c80">She warns everyone against....into that house</string>
+    <string name="grm_c80a">come</string>
+    <string name="grm_c80b">coming</string>
+    <string name="grm_c80c">to come</string>
+    <string name="grm_c80d">came</string>
+    <string name="dac80">2</string>
+
+    //81
+    <string name="grm_c81">She gets set up with....her own house</string>
+    <string name="grm_c81a">buy</string>
+    <string name="grm_c81b">bought</string>
+    <string name="grm_c81c">buying</string>
+    <string name="grm_c81d">to buy</string>
+    <string name="dac81">3</string>
+
+    //82
+    <string name="grm_c82">Miss Lan Anh criticizes her students of .....homework</string>
+    <string name="grm_c82a">not do</string>
+    <string name="grm_c82b">not doing</string>
+    <string name="grm_c82c">not to do</string>
+    <string name="grm_c82d">doing</string>
+    <string name="dac82">2</string>
+
+
+    //83
+    <string name="grm_c83">My parents object to....out alone at night</string>
+    <string name="grm_c83a">go</string>
+    <string name="grm_c83b">to going</string>
+    <string name="grm_c83c">to go</string>
+    <string name="grm_c83d">going</string>
+    <string name="dac83">4</string>
+
+    //84
+    <string name="grm_c84" tools:ignore="StringEscaping">They couldn't help....when they heard the little boy singing a love song</string>
+    <string name="grm_c84a">laughing</string>
+    <string name="grm_c84b">to laugh</string>
+    <string name="grm_c84c">laugh</string>
+    <string name="grm_c84d">to be laughed</string>
+    <string name="dac84">1</string>
+
+    //85
+    <string name="grm_c85">I smell something.....in the kitchen</string>
+    <string name="grm_c85a">burn</string>
+    <string name="grm_c85b">to burn</string>
+    <string name="grm_c85c">burning</string>
+    <string name="grm_c85d">to burning</string>
+    <string name="dac85">3</string>
+
+    //86
+    <string name="grm_c86" tools:ignore="StringEscaping">I remember......you somewhere but i can't know you name</string>
+    <string name="grm_c86a">to meet</string>
+    <string name="grm_c86b">met</string>
+    <string name="grm_c86c">meeting</string>
+    <string name="grm_c86d">meet</string>
+    <string name="dac86">3</string>
+
+
+    //87
+    <string name="grm_c87">On the way home,I stopped at the post office... send a letter</string>
+    <string name="grm_c87a">buying</string>
+    <string name="grm_c87b">buy</string>
+    <string name="grm_c87c">bought</string>
+    <string name="grm_c87d">to buy</string>
+    <string name="dac87">4</string>
+
+    //88
+    <string name="grm_c88" tools:ignore="StringEscaping">After finishing her BA, she went on.....a master's degree</string>
+    <string name="grm_c88a">getting</string>
+    <string name="grm_c88b">to get</string>
+    <string name="grm_c88c">get</string>
+    <string name="grm_c88d">got</string>
+    <string name="dac88">2</string>
+
+    //89
+    <string name="grm_c89">I regret....you that you have failed</string>
+    <string name="grm_c89a">to tell</string>
+    <string name="grm_c89b">tell</string>
+    <string name="grm_c89c">telling</string>
+    <string name="grm_c89d">not to tell</string>
+    <string name="dac89">1</string>
+
+    //90
+    <string name="grm_c90">Try....some more sauce to you pasta</string>
+    <string name="grm_c90a">to add</string>
+    <string name="grm_c90b">adding</string>
+    <string name="grm_c90c">not to add</string>
+    <string name="grm_c90d">not adding</string>
+    <string name="dac90">2</string>
+
+    // Relative clauses question
+    //91
+    <string name="grm_c91">The man....answered the telephone told me you were away</string>
+    <string name="grm_c91a">whom</string>
+    <string name="grm_c91b">he</string>
+    <string name="grm_c91c">who</string>
+    <string name="grm_c91d">what</string>
+    <string name="dac91">3</string>
+
+
+    //92
+    <string name="grm_c92">Some people....were arrested have now been released</string>
+    <string name="grm_c92a">that</string>
+    <string name="grm_c92b">which</string>
+    <string name="grm_c92c">whom</string>
+    <string name="grm_c92d">who</string>
+    <string name="dac92">4</string>
+
+    //93
+    <string name="grm_c93">Do you still remember the day....we first met? </string>
+    <string name="grm_c93a">where</string>
+    <string name="grm_c93b">whom</string>
+    <string name="grm_c93c">which</string>
+    <string name="grm_c93d">when</string>
+    <string name="dac93">4</string>
+
+
+    //94
+    <string name="grm_c94">The picture...Laura painted is being shown in an exhibition</string>
+    <string name="grm_c94a">that</string>
+    <string name="grm_c94b">which</string>
+    <string name="grm_c94c">why</string>
+    <string name="grm_c94d">A and B are correct answers</string>
+    <string name="dac94">4</string>
+
+
+    //95
+    <string name="grm_c95">The plane...has just taken off is an hour later </string>
+    <string name="grm_c95a">what</string>
+    <string name="grm_c95b">which</string>
+    <string name="grm_c95c">it</string>
+    <string name="grm_c95d">who</string>
+    <string name="dac95">2</string>
+
+
+    //96
+    <string name="grm_c96">The week....Mike went to camping was the wettest of the year</string>
+    <string name="grm_c96a">which</string>
+    <string name="grm_c96b">when</string>
+    <string name="grm_c96c">how</string>
+    <string name="grm_c96d">who</string>
+    <string name="dac96">2</string>
+
+
+    //97
+    <string name="grm_c97">Mrs.Jackson,....used to be very beautiful,is now suffering from a fatal disease</string>
+    <string name="grm_c97a">who</string>
+    <string name="grm_c97b">whose</string>
+    <string name="grm_c97c">she</string>
+    <string name="grm_c97d">that</string>
+    <string name="dac97">1</string>
+
+
+    //98
+    <string name="grm_c98">Did they tell you the reason....they were late?</string>
+    <string name="grm_c98a">why</string>
+    <string name="grm_c98b">which</string>
+    <string name="grm_c98c">what</string>
+    <string name="grm_c98d">when</string>
+    <string name="dac98">1</string>
+
+
+    //99
+    <string name="grm_c99">She passed her exam,..made her parents proud</string>
+    <string name="grm_c99a">who</string>
+    <string name="grm_c99b">which</string>
+    <string name="grm_c99c">that</string>
+    <string name="grm_c99d">B and C are correct</string>
+    <string name="dac99">2</string>
+
+    //100
+    <string name="grm_c100">Many patients...suffer from cancer can be saved by the treatment of lasers</string>
+    <string name="grm_c100a">who</string>
+    <string name="grm_c100b">whom</string>
+    <string name="grm_c100c">which</string>
+    <string name="grm_c100d">whose</string>
+    <string name="dac100">1</string>
+
+    //101
+    <string name="grm_c101">A new varieties of rice....is adapted to harsh climatic</string>
+    <string name="grm_c101a">what</string>
+    <string name="grm_c101b">where</string>
+    <string name="grm_c101c">that</string>
+    <string name="grm_c101d">who</string>
+    <string name="dac101">3</string>
+
+    //102
+    <string name="grm_c102">The girl....near the door is my new friend</string>
+    <string name="grm_c102a">who is standing</string>
+    <string name="grm_c102b">standing</string>
+    <string name="grm_c102c">thia is standing</string>
+    <string name="grm_c102d">all are correct</string>
+    <string name="dac102">4</string>
+
+    //103
+    <string name="grm_c103">This bed,....he used to rest on, is made of wood</string>
+    <string name="grm_c103a">where</string>
+    <string name="grm_c103b">which</string>
+    <string name="grm_c103c">that</string>
+    <string name="grm_c103d">A and C</string>
+    <string name="dac103">2</string>
+
+    //104
+    <string name="grm_c104">My car broke down,... a real nuisance</string>
+    <string name="grm_c104a">that was</string>
+    <string name="grm_c104b">which was</string>
+    <string name="grm_c104c">which were</string>
+    <string name="grm_c104d">where was</string>
+    <string name="dac104">2</string>
+
+    //105
+    <string name="grm_c105">Tom was the last member...the club last night</string>
+    <string name="grm_c105a">that leaves</string>
+    <string name="grm_c105b">left</string>
+    <string name="grm_c105c">to leave</string>
+    <string name="grm_c105d">who leaving</string>
+    <string name="dac105">3</string>
+
+    //106
+    <string name="grm_c106">What is the name of the man....?</string>
+    <string name="grm_c106a">you borrowed his car</string>
+    <string name="grm_c106b">which car you borrowed</string>
+    <string name="grm_c106c">whose car you borrowed</string>
+    <string name="grm_c106d">his car you borrowed</string>
+    <string name="dac106">3</string>
+
+    //107
+    <string name="grm_c107" tools:ignore="StringEscaping">They are never on time,...can't be explained </string>
+    <string name="grm_c107a">who</string>
+    <string name="grm_c107b">that</string>
+    <string name="grm_c107c">what</string>
+    <string name="grm_c107d">which</string>
+    <string name="dac107">4</string>
+
+    //108
+    <string name="grm_c108">I have two sisters,...are doctors</string>
+    <string name="grm_c108a">both of which</string>
+    <string name="grm_c108b">who both</string>
+    <string name="grm_c108c">both of whom</string>
+    <string name="grm_c108d">whom both</string>
+    <string name="dac108">3</string>
+
+    //109
+    <string name="grm_c109">That contract about...we had a disagreement last month has now gone through</string>
+    <string name="grm_c109a">that</string>
+    <string name="grm_c109b">what</string>
+    <string name="grm_c109c">whom</string>
+    <string name="grm_c109d">which</string>
+    <string name="dac109">4</string>
+
+    //110
+    <string name="grm_c110">The meeting....was very boring</string>
+    <string name="grm_c110a">that Jane attended</string>
+    <string name="grm_c110b">where Jane attended</string>
+    <string name="grm_c110c">Who Jane attended</string>
+    <string name="grm_c110d">attending by Jane</string>
+    <string name="dac110">2</string>
+
+    //111
+    <string name="grm_c111">The woman...he fell in love left him after a few weeks</string>
+    <string name="grm_c111a">with whom</string>
+    <string name="grm_c111b">who</string>
+    <string name="grm_c111c">to whom</string>
+    <string name="grm_c111d">for whom</string>
+    <string name="dac111">1</string>
+
+    //112
+    <string name="grm_c112">For tunately we had a map,... we would have got lost</string>
+    <string name="grm_c112a">no which</string>
+    <string name="grm_c112b">without which</string>
+    <string name="grm_c112c">none that</string>
+    <string name="grm_c112d">without that</string>
+    <string name="dac112">2</string>
+
+    //113
+    <string name="grm_c113">A chemical company....has gone bankrupt</string>
+    <string name="grm_c113a">to employ 4000 people</string>
+    <string name="grm_c113b">employing 4000 people</string>
+    <string name="grm_c113c">employ 4000 people</string>
+    <string name="grm_c113d"> that was employed 4000 people</string>
+    <string name="dac113">2</string>
+
+    //114
+    <string name="grm_c114">The scholastic Aptitude Test(SAT)....by high school students as a requirement for admission to many colleges</string>
+    <string name="grm_c114a">which is taken</string>
+    <string name="grm_c114b">is taken</string>
+    <string name="grm_c114c">taken</string>
+    <string name="grm_c114d">is taking</string>
+    <string name="dac114">3</string>
+
+    //115
+    <string name="grm_c115">In a meritocracy,intelligence and ability...more than social position or weath</string>
+    <string name="grm_c115a">which value</string>
+    <string name="grm_c115b">that are valued</string>
+    <string name="grm_c115c">valuing</string>
+    <string name="grm_c115d">are valued</string>
+    <string name="dac115">4</string>
+
+    //116
+    <string name="grm_c116">I have just bought a television set....in Japan</string>
+    <string name="grm_c116a">which made</string>
+    <string name="grm_c116b">in which made</string>
+    <string name="grm_c116c">who is made</string>
+    <string name="grm_c116d">made</string>
+    <string name="dac116">4</string>
+
+    //117
+    <string name="grm_c117">Tennis fans...tickets have been queuing all night at Wimbledon</string>
+    <string name="grm_c117a">who are hoped to buy</string>
+    <string name="grm_c117b">whom hoped to buy</string>
+    <string name="grm_c117c">hoping to buy</string>
+    <string name="grm_c117d">hoped to buy</string>
+    <string name="dac117">3</string>
+
+    //118
+    <string name="grm_c118">The authority has a message for people</string>
+    <string name="grm_c118a">delaying</string>
+    <string name="grm_c118b">who delayed</string>
+    <string name="grm_c118c">to be delayed</string>
+    <string name="grm_c118d">delayed</string>
+    <string name="dac118">4</string>
+
+    //119
+    <string name="grm_c119">I like Hamlet, a play...Shakespeare</string>
+    <string name="grm_c119a">was written by</string>
+    <string name="grm_c119b">written by</string>
+    <string name="grm_c119c">that written by</string>
+    <string name="grm_c119d">all are correct</string>
+    <string name="dac119">2</string>
+
+    //120
+    <string name="grm_c120">In Helvetia i have seen a large city......many people live</string>
+    <string name="grm_c120a"> at which</string>
+    <string name="grm_c120b">which </string>
+    <string name="grm_c120c">on which</string>
+    <string name="grm_c120d">in which</string>
+    <string name="dac120">4</string>
+
+
+
+
+
+
+
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- LEFT MENU -->
+    <string name="nav_menu_about">About</string>
+    <string name="nav_menu_feedback">Feedback</string>
+    <string name="nav_menu_history">History</string>
+    <string name="nav_menu_setting">Settings</string>
+    <string name="nav_menu_tick_note">Tick note</string>
+    <string name="nav_title_contact">Contact</string>
+
+    <string name="update_background">Wallpaper</string>
+    <string name="add_new">New</string>
+
+    <!-- Menu vocabulary -->
+    <string name="menu_add_new">Add New</string>
+    <string name="menu_home_screen">Home Screen</string>
+    <string name="menu_lock_screen">Lock Screen</string>
+    <string name="menu_setting">Settings</string>
+
+    <!-- Activity Vocabulary -->
+    <string name="vocabulary_spaces_minus">  -  </string>
+
+    <!-- Dialog Utils -->
+    <string name="dialog_loading_message">Loading...</string>
+    <string name="dialog_no_network_title">Warning</string>
+    <string name="dialog_no_network_sub_title">No network connection!</string>
+    <string name="dialog_no_network_description">Please, checking network connection for using this feature</string>
+    <string name="dialog_btn_setting">Setting network</string>
+    <string name="dialog_error_title">Error!</string>
+    <string name="dialog_server_error">Cannot connect to server! Please checking network connection</string>
+    <string name="dialog_spinner_color_default">Choose text color</string>
+    <string name="dialog_label_text_color">Text color: </string>
+    <string name="dialog_label_text_size">Text size: </string>
+    <string name="dialog_label_text_padding">Padding: </string>
+
+    <!-- Dialog add new word -->
+    <string name="dialog_hint_keyword"><font size="12">Enter keyword or using voice</font></string>
+    <string name="dialog_hint_type"><font size="12">noun, verb, adjective,...</font></string>
+    <string name="dialog_btn_confirm">OK</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_title_congratulations">Congratulations</string>
+    <string name="dialog_btn_wallpaper_success">Complete! Set wallpaper done, click <b>OK</b> for check now.</string>
+    <string name="dialog_hint_mean"><font size="12">What is this mean?</font></string>
+    <string name="dialog_hint_description"><font size="12">Further information about it?</font></string>
+    <string name="dialog_voice_recognition">Banh Voice Recognition...</string>
+    <string name="dialog_vona_support_translate">If you do not know the meaning of it, use Banh support</string>
+    <string name="dialog_edt_keyword_empty">You must be enter keyword before using Banh support</string>
+
+    <string name="dialog_remove_word">Do you want to remove it?</string>
+    <string name="dialog_is_using_shadow">Using shadow</string>
+
+    <!-- Feedback -->
+    <string name="activity_feedback">Feedback</string>
+    <string name="feedback_message">If you have a little messages, you can send feedback for me with your email. I hope that can receive lots of feedback from you to improve application and make it better.\n\nPlease, click bellow button for send feedback. Thank you very much :D</string>
+    <string name="button_send_feedback">Send feedback</string>
+
+    <!-- About App -->
+    <string name="activity_about_me">About</string>
+    <string name="about_message">Hi, I’m a software developer. I hope that new technologies are making life better. I have been learning English for many years but I have difficulty in remembering new words. This is main reason for my idea which is a mobile application. I want to develop it same as assistant in learning English. To beginning with this idea, it’s very easy to use the app, you can write a list of words and set them home screen or lock screen on your mobile phone. whenever you use your mobile, you can see it.</string>
+    <string name="about_title_01">Why do I choose mobile application to develop my idea?</string>
+    <string name="about_message_01_01"> - Mobile phone is easy to bring anywhere</string>
+    <string name="about_message_01_02"> - Mobile phone is popular to connect many people on the World</string>
+    <string name="about_message_01_03"> - You can download applications from store and use it</string>
+    <string name="about_title_02">Something about my idea and how to use it?</string>
+    <string name="about_message_02_01"> - After you open app, you only choose a background theme, write a list of words that you will learn today. Then you set background on home screen or lock screen.</string>
+    <string name="about_message_02_02"> - This application allows you to use settings as font size, font color, padding.</string>
+    <string name="about_message_02_03"> - You use background theme from gallery.</string>
+    <string name="about_message_02_04"> - <b>Banh assistant</b> will support if you forget the meaning of the words.</string>
+    <string name="about_title_03">What will this app have features in next version?</string>
+    <string name="about_message_03_01"> - See history of cards which were created in the past</string>
+    <string name="about_message_03_02"> - Improving <b>Banh assistant</b> as AI bot, it will look for images with per word that you wrote.</string>
+    <string name="about_message_03_03"> - Fix errors and filter users feedback to update helpful application</string>
+    <string name="about_message_03_04"> - More and more other features in my mind.</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- Toast -->
+    <string name="toast_can_not_get_image">Error! Could not get image from your Gallery</string>
+
+    <string-array name="dialog_setting_colors">
+        <item>White</item>
+        <item>Black</item>
+        <item>Orange</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Pink</item>
+        <item>Gray</item>
+        <item>Red</item>
+    </string-array>
+
+    <string-array name="dialog_setting_text_size">
+        <item>12sp</item>
+        <item>13sp</item>
+        <item>14sp</item>
+        <item>15sp</item>
+        <item>16sp</item>
+        <item>17sp</item>
+        <item>18sp</item>
+        <item>19sp</item>
+        <item>20sp</item>
+        <item>22sp</item>
+        <item>24sp</item>
+        <item>26sp</item>
+        <item>30sp</item>
+        <item>36sp</item>
+        <item>40sp</item>
+        <item>44sp</item>
+        <item>48sp</item>
+        <item>64sp</item>
+        <item>96sp</item>
+    </string-array>
+
+    <string-array name="dialog_setting_text_padding">
+        <item>8dp</item>
+        <item>10dp</item>
+        <item>12dp</item>
+        <item>14dp</item>
+        <item>16dp</item>
+        <item>18dp</item>
+        <item>20dp</item>
+        <item>22dp</item>
+        <item>24dp</item>
+        <item>26dp</item>
+        <item>28dp</item>
+        <item>30dp</item>
+        <item>36dp</item>
+        <item>40dp</item>
+        <item>44dp</item>
+        <item>48dp</item>
+    </string-array>
+
+
+
+</resources>

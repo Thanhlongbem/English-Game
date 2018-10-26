@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_setting"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/activity_margin_16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin_16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/activity_margin_16dp">
+
+            <TextView
+                android:layout_width="@dimen/dialog_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_label_text_color"/>
+
+            <Spinner
+                android:id="@+id/spinnerTextColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:entries="@array/dialog_setting_colors" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/activity_margin_16dp">
+
+            <TextView
+                android:layout_width="@dimen/dialog_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_label_text_size"/>
+
+            <Spinner
+                android:id="@+id/spinnerTextSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:entries="@array/dialog_setting_text_size"/>
+
+            <ImageView
+                android:id="@+id/imvTextSizeMinus"
+                android:layout_width="@dimen/icon_24dp"
+                android:layout_height="@dimen/icon_24dp"
+                android:src="@drawable/ic_minus_black"
+                android:layout_marginEnd="@dimen/activity_margin_8dp"
+                android:layout_marginStart="@dimen/activity_margin_8dp"/>
+
+            <ImageView
+                android:id="@+id/imvTextSizePlus"
+                android:layout_width="@dimen/icon_24dp"
+                android:layout_height="@dimen/icon_24dp"
+                android:src="@drawable/ic_add_black"
+                android:layout_marginEnd="@dimen/activity_margin_8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/activity_margin_16dp">
+
+            <TextView
+                android:layout_width="@dimen/dialog_label_width"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_label_text_padding"/>
+
+            <Spinner
+                android:id="@+id/spinnerTextPadding"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:entries="@array/dialog_setting_text_padding"/>
+
+            <ImageView
+                android:id="@+id/imvTextPaddingMinus"
+                android:layout_width="@dimen/icon_24dp"
+                android:layout_height="@dimen/icon_24dp"
+                android:src="@drawable/ic_minus_black"
+                android:layout_marginEnd="@dimen/activity_margin_8dp"
+                android:layout_marginStart="@dimen/activity_margin_8dp"/>
+
+            <ImageView
+                android:id="@+id/imvTextPaddingPlus"
+                android:layout_width="@dimen/icon_24dp"
+                android:layout_height="@dimen/icon_24dp"
+                android:src="@drawable/ic_add_black"
+                android:layout_marginEnd="@dimen/activity_margin_8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/cbUsingShadow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_is_using_shadow"
+                android:checked="true"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@android:color/darker_gray"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnSettingCancel"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="35dp"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:text="@string/dialog_btn_cancel"-->
+    <!--style="@style/Widget.AppCompat.Button.Borderless" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnSettingSubmit"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/dialog_btn_confirm"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--style="@style/Widget.AppCompat.Button.Colored"-->
+    <!--android:textColor="@android:color/white" />-->
+
+
+    <!--</RelativeLayout>-->
+</LinearLayout>

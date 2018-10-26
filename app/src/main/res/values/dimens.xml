@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_bottom">50dp</dimen>
+
+    <!-- CONFIG DEFAULT -->
+    <dimen name="activity_margin_8dp">8dp</dimen>
+    <dimen name="activity_margin_16dp">16dp</dimen>
+    <dimen name="activity_margin_24dp">24dp</dimen>
+    <dimen name="activity_margin_32dp">32dp</dimen>
+    <dimen name="activity_margin_48dp">48dp</dimen>
+    <dimen name="activity_margin_64dp">64dp</dimen>
+    <dimen name="icon_24dp">24dp</dimen>
+
+    <!-- DIALOG -->
+    <dimen name="dialog_margin_top">40dp</dimen>
+    <dimen name="dialog_label_width">80dp</dimen>
+
+    <!-- EDITOR VOCABULARY -->
+    <dimen name="word_text_default">48sp</dimen>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="You need enter your name"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="#96fff6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Your name"
+        android:id="@+id/startUserName"/>
+    <Button
+        android:id="@+id/startOK"
+        android:textStyle="italic|bold"
+        android:text="OK"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_user_listening"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

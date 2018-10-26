@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_note_07">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:gravity="center_horizontal"
+        android:visibility="visible"
+        android:id="@+id/grmContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:textStyle="bold|italic"
+            android:id="@+id/tvGrammarMoney"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="0 VND"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textColor="#ff0000"
+            android:background="@drawable/button_answer"
+            android:textSize="30sp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/tvGrmCountDown"/>
+
+        <TextView
+            android:maxLines="5"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:text="Who are you?"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvQuestion"/>
+
+
+        <Button
+            android:gravity="center_vertical|left"
+            android:text="dfsd"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            android:textSize="11sp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_a"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_answer"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:maxLines="3"
+            android:id="@+id/btn_grm_a"/>
+        <Button
+
+            android:gravity="center_vertical|left"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            android:textSize="11sp"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/ic_b"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_answer"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:maxLines="2"
+            android:id="@+id/btn_grm_b"/>
+        <Button
+            android:gravity="center_vertical|left"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            android:textSize="11sp"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/ic_c"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_answer"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:maxLines="2"
+            android:id="@+id/btn_grm_c"/>
+        <Button
+            android:gravity="center_vertical|left"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            android:textSize="11sp"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/ic_d"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_answer"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:maxLines="2"
+            android:id="@+id/btn_grm_d"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:id="@+id/tv_answer"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="right"
+            android:gravity="center">
+
+
+            <Button
+                android:layout_gravity="right"
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+                android:text="Don't save"
+                android:id="@+id/btn_dont_save_grammar"
+                android:textColor="#ff0000"
+                android:background="@drawable/button_answer"
+                android:layout_width="100dp"
+                android:layout_height="30dp" />
+
+            <Button
+                android:layout_gravity="right"
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+                android:text="Save"
+                android:id="@+id/btn_save_grammar"
+                android:textColor="#ff0000"
+                android:background="@drawable/button_answer"
+                android:layout_width="100dp"
+                android:layout_height="30dp" />
+
+            <Button
+                android:visibility="visible"
+                android:id="@+id/btn_ok_grammar"
+                android:textColor="#ff0000"
+                android:background="@drawable/button_answer"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_gravity="right"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:text="Next"
+                android:id="@+id/btn_next_grammar"
+                android:textColor="#ff0000"
+                android:background="@drawable/button_answer"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ff0000"
+            android:background="@drawable/button_answer"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_grm_state"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
