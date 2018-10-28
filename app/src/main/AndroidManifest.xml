@@ -31,6 +31,7 @@
         <activity android:name=".FeedbackActivity"/>
         <activity android:name=".AboutMeActivity"/>
         <activity android:name=".listening.ContentListening"/>
+        <activity android:name=".ActivityChampion"/>
 
     </application>
 

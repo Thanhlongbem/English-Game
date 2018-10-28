@@ -47,34 +47,31 @@ public class ContentListening extends AppCompatActivity {
     int dapAn = 0;
     int kq_lis = 0;
     int i = 1;
-    String timeLive = "50000";
+    String timeLive = "45000";
 
 
-    public int timeCountDown15 = 10000;
+    public int timeCountDown15 = 30000;
     public int timeCountDown610 = 30000;
-    public int timeCountDown1115 = 60000;
+    public int timeCountDown1115 = 30000;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listening_content);
-
         initView();
-        initData();
         initClickAnswer();
         initClick();
         evenLisClick();
 
-
-
-
-
-
+        initData();
+        btn_continue_lis.setVisibility(View.VISIBLE);
+        btn_ok_lis.setVisibility(View.GONE);
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        mp.stop();
         finish();
     }
 
@@ -97,12 +94,6 @@ public class ContentListening extends AppCompatActivity {
         btn_continue_lis = findViewById(R.id.btn_continue_lis);
 
 
-        listening_yA.setMovementMethod(new ScrollingMovementMethod());
-        listening_yB.setMovementMethod(new ScrollingMovementMethod());
-        listening_yC.setMovementMethod(new ScrollingMovementMethod());
-        listening_yD.setMovementMethod(new ScrollingMovementMethod());
-
-
     }
 
     public void initData(){
@@ -116,10 +107,20 @@ public class ContentListening extends AppCompatActivity {
         listening_yC.setText(R.string.ques_1c1);
         listening_yD.setText(R.string.ques_1d1);
         kq_lis = 2;
-
+        //countDownTimer(timeCountDown15);
+        tvLisCountDown.setText("45");
 
         numQues.setText(R.string.lis_c1);
-        countDownTimer(timeCountDown15);
+        mp = MediaPlayer.create(getApplicationContext(), R.raw.unit1);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                countDownTimer(timeCountDown15);
+            }
+        });
+
+
 
 
     }
@@ -205,12 +206,6 @@ public class ContentListening extends AppCompatActivity {
                 switch (i){
                     case 1:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c2);
                         tvQuestionLis.setText(R.string.lis_ques_1_2);
                         listening_yA.setText(R.string.ques_1a2);
@@ -218,16 +213,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_1c2);
                         listening_yD.setText(R.string.ques_1d2);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac1_2)));
-                        countDownTimer(timeCountDown15);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.unit1);
+                        onNextCommon();
                         break;
                     case 2:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c3);
                         tvQuestionLis.setText(R.string.lis_ques_1_3);
                         listening_yA.setText(R.string.ques_1a3);
@@ -235,16 +225,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_1c3);
                         listening_yD.setText(R.string.ques_1d3);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac1_3)));
-                        countDownTimer(timeCountDown15);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.unit1);
+                        onNextCommon();
                         break;
                     case 3:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c4);
                         tvQuestionLis.setText(R.string.lis_ques_1_4);
                         listening_yA.setText(R.string.ques_1a4);
@@ -252,16 +237,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_1c4);
                         listening_yD.setText(R.string.ques_1d4);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac1_4)));
-                        countDownTimer(timeCountDown15);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.unit1);
+                        onNextCommon();
                         break;
                     case 4:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c5);
                         tvQuestionLis.setText(R.string.lis_ques_1_5);
                         listening_yA.setText(R.string.ques_1a5);
@@ -269,16 +249,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_1c5);
                         listening_yD.setText(R.string.ques_1d5);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac1_5)));
-                        countDownTimer(timeCountDown15);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.unit1);
+                        onNextCommon();
                         break;
                     case 5:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c6);
                         tvQuestionLis.setText(R.string.lis_ques_2_1);
                         listening_yA.setText(R.string.ques_2a1);
@@ -286,16 +261,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setVisibility(View.GONE);
                         listening_yD.setVisibility(View.GONE);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac2_1)));
-                        countDownTimer(timeCountDown610);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.mr_lam_mp3cut_net);
+                        onNextCommon();
                         break;
                     case 6:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c7);
                         tvQuestionLis.setText(R.string.lis_ques_2_2);
                         listening_yA.setText(R.string.ques_2a2);
@@ -303,33 +273,22 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setVisibility(View.GONE);
                         listening_yD.setVisibility(View.GONE);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac2_2)));
-                        countDownTimer(timeCountDown610);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.mr_lam_mp3cut_net);
+                        onNextCommon();
                         break;
                     case 7:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
-                        numQues.setText(R.string.lis_c8);
                         tvQuestionLis.setText(R.string.lis_ques_2_3);
                         listening_yA.setText(R.string.ques_2a3);
                         listening_yB.setText(R.string.ques_2b3);
                         listening_yC.setVisibility(View.GONE);
                         listening_yD.setVisibility(View.GONE);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac2_3)));
-                        countDownTimer(timeCountDown610);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.mr_lam_mp3cut_net);
+                        onNextCommon();
                         break;
                     case 8:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c9);
                         tvQuestionLis.setText(R.string.lis_ques_2_4);
                         listening_yA.setText(R.string.ques_2a4);
@@ -337,35 +296,24 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setVisibility(View.GONE);
                         listening_yD.setVisibility(View.GONE);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac2_4)));
-                        countDownTimer(timeCountDown610);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.mr_lam_mp3cut_net);
+                        onNextCommon();
                         break;
                     case 9:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
-                        numQues.setText(R.string.lis_c10);
                         tvQuestionLis.setText(R.string.lis_ques_2_5);
                         listening_yA.setText(R.string.ques_2a5);
                         listening_yB.setText(R.string.ques_2b5);
                         listening_yC.setVisibility(View.GONE);
                         listening_yD.setVisibility(View.GONE);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac2_5)));
-                        countDownTimer(timeCountDown610);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.mr_lam_mp3cut_net);
+                        onNextCommon();
                         break;
                     case 10:
                         i++;
                         listening_yC.setVisibility(View.VISIBLE);
                         listening_yD.setVisibility(View.VISIBLE);
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c11);
                         tvQuestionLis.setText(R.string.lis_ques_3_1);
                         listening_yA.setText(R.string.ques_3a1);
@@ -373,16 +321,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_3c1);
                         listening_yD.setText(R.string.ques_3d1);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac3_1)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.nguyen_hong_phong);
+                        onNextCommon();
                         break;
                     case 11:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c12);
                         tvQuestionLis.setText(R.string.lis_ques_3_2);
                         listening_yA.setText(R.string.ques_3a2);
@@ -390,16 +333,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_3c2);
                         listening_yD.setText(R.string.ques_3d2);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac3_2)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.nguyen_hong_phong);
+                        onNextCommon();
                         break;
                     case 12:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c13);
                         tvQuestionLis.setText(R.string.lis_ques_3_3);
                         listening_yA.setText(R.string.ques_3a3);
@@ -407,16 +345,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_3c3);
                         listening_yD.setText(R.string.ques_3d3);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac3_3)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.nguyen_hong_phong);
+                        onNextCommon();
                         break;
                     case 13:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c14);
                         tvQuestionLis.setText(R.string.lis_ques_3_4);
                         listening_yA.setText(R.string.ques_3a4);
@@ -424,16 +357,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_3c4);
                         listening_yD.setText(R.string.ques_3d4);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac3_4)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.nguyen_hong_phong);
+                        onNextCommon();
                         break;
                     case 14:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c15);
                         tvQuestionLis.setText(R.string.lis_ques_3_5);
                         listening_yA.setText(R.string.ques_3a5);
@@ -441,16 +369,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_3c5);
                         listening_yD.setText(R.string.ques_3d5);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac3_5)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.nguyen_hong_phong);
+                        onNextCommon();
                         break;
                     case 15:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c16);
                         tvQuestionLis.setText(R.string.lis_ques_4_1);
                         listening_yA.setText(R.string.ques_4a1);
@@ -458,16 +381,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_4c1);
                         listening_yD.setText(R.string.ques_4d1);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac4_1)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.teacher);
+                        onNextCommon();
                         break;
                     case 16:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c17);
                         tvQuestionLis.setText(R.string.lis_ques_4_2);
                         listening_yA.setText(R.string.ques_4a2);
@@ -475,16 +393,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_4c2);
                         listening_yD.setText(R.string.ques_4d2);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac4_2)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.teacher);
+                        onNextCommon();
                         break;
                     case 17:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c18);
                         tvQuestionLis.setText(R.string.lis_ques_4_3);
                         listening_yA.setText(R.string.ques_4a3);
@@ -492,16 +405,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_4c3);
                         listening_yD.setText(R.string.ques_4d3);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac4_3)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.teacher);
+                        onNextCommon();
                         break;
                     case 18:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c19);
                         tvQuestionLis.setText(R.string.lis_ques_5_1);
                         listening_yA.setText(R.string.ques_5a1);
@@ -509,16 +417,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_5c1);
                         listening_yD.setText(R.string.ques_5d1);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac5_1)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.phongs_father);
+                        onNextCommon();
                         break;
                     case 19:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c20);
                         tvQuestionLis.setText(R.string.lis_ques_5_2);
                         listening_yA.setText(R.string.ques_5a2);
@@ -526,16 +429,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_5c2);
                         listening_yD.setText(R.string.ques_5d2);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac5_2)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.phongs_father);
+                        onNextCommon();
                         break;
                     case 20:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c21);
                         tvQuestionLis.setText(R.string.lis_ques_6_1);
                         listening_yA.setText(R.string.ques_6a1);
@@ -543,16 +441,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_6c1);
                         listening_yD.setText(R.string.ques_6d1);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac6_1)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.marier_curier);
+                        onNextCommon();
                         break;
                     case 21:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c22);
                         tvQuestionLis.setText(R.string.lis_ques_6_2);
                         listening_yA.setText(R.string.ques_6a2);
@@ -560,16 +453,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_6c2);
                         listening_yD.setText(R.string.ques_6d2);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac6_2)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.marier_curier);
+                        onNextCommon();
                         break;
                     case 22:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c23);
                         tvQuestionLis.setText(R.string.lis_ques_6_3);
                         listening_yA.setText(R.string.ques_6a3);
@@ -577,16 +465,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_6c3);
                         listening_yD.setText(R.string.ques_6d3);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac6_3)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.marier_curier);
+                        onNextCommon();
                         break;
                     case 23:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c24);
                         tvQuestionLis.setText(R.string.lis_ques_6_4);
                         listening_yA.setText(R.string.ques_6a4);
@@ -594,16 +477,11 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_6c4);
                         listening_yD.setText(R.string.ques_6d4);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac6_4)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.marier_curier);
+                        onNextCommon();
                         break;
                     case 24:
                         i++;
-                        btnListening.setVisibility(View.VISIBLE);
-                        soLanNghe = 2;
-                        tvSoLanNghe.setText("2");
-                        tvLisCountDown.setVisibility(View.VISIBLE);
-                        btn_next_lis.setVisibility(View.GONE);
-                        btn_ok_lis.setVisibility(View.VISIBLE);
                         numQues.setText(R.string.lis_c25);
                         tvQuestionLis.setText(R.string.lis_ques_6_5);
                         listening_yA.setText(R.string.ques_6a5);
@@ -611,7 +489,8 @@ public class ContentListening extends AppCompatActivity {
                         listening_yC.setText(R.string.ques_6c5);
                         listening_yD.setText(R.string.ques_6d5);
                         kq_lis = Integer.parseInt(String.valueOf(getResources().getString(R.string.lis_dac6_5)));
-                        countDownTimer(timeCountDown1115);
+                        mp = MediaPlayer.create(getApplicationContext(), R.raw.marier_curier);
+                        onNextCommon();
                         break;
 
 
@@ -619,9 +498,29 @@ public class ContentListening extends AppCompatActivity {
                 }
             }
         });
-
-
     }
+
+    public void onNextCommon(){
+        count.cancel();
+        tvLisCountDown.setText("45");
+        btn_continue_lis.setVisibility(View.VISIBLE);
+        btn_ok_lis.setVisibility(View.GONE);
+        btnListening.setVisibility(View.VISIBLE);
+        soLanNghe = 2;
+        tvSoLanNghe.setText("2");
+        tvLisCountDown.setVisibility(View.VISIBLE);
+        btn_next_lis.setVisibility(View.GONE);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                countDownTimer(45000);
+
+                btn_ok_lis.setVisibility(View.VISIBLE);
+            }
+        });
+    }
+
 
     public void evenLisClick(){
         btn_continue_lis.setOnClickListener(new View.OnClickListener() {
@@ -887,6 +786,7 @@ public class ContentListening extends AppCompatActivity {
                         count.cancel();
                         fillColor(kq_lis);
                         btn_next_lis.setVisibility(View.VISIBLE);
+                        mp.stop();
                         //String toSpeak = "well done";
                         //t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
                     }else{
@@ -899,6 +799,7 @@ public class ContentListening extends AppCompatActivity {
                     if(dapAn == kq_lis){
                         dialogInterface.dismiss();
                         count.cancel();
+                        mp.stop();
                         rl_listenning_content.setVisibility(View.GONE);
                         //String toSpeak = "Congratulation";
                         //Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
@@ -907,6 +808,7 @@ public class ContentListening extends AppCompatActivity {
                         startActivity(intent);
                     }else{
                         count.cancel();
+                        mp.stop();
                         fillColor(kq_lis);
                         btn_save_lis.setVisibility(View.VISIBLE);
                         btn_dont_save_lis.setVisibility(View.VISIBLE);
@@ -933,3 +835,4 @@ public class ContentListening extends AppCompatActivity {
         }
     }
 }
+

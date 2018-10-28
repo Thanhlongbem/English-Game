@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-    <resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">English for everybody</string>
 
     //Tien thuong
@@ -53,7 +53,7 @@
     <string name="listening_start">Game will begin after you click start</string>
     //Bai 1
     //b1-1
-    <string name="lis_ques_1_1">The alarm.... at 4:30.I get up and....to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="lis_ques_1_1">The alarm.... at 4:30.I get up and....to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest. (answer the 1st blank)</string>
     <string name="ques_1a1">go off</string>
     <string name="ques_1b1">goes off</string>
     <string name="ques_1c1">go of</string>
@@ -61,7 +61,7 @@
     <string name="lis_dac1_1">2</string>
 
     //b1-2
-    <string name="lis_ques_1_2">The alarm goes off at 4:30.I get up and....to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="lis_ques_1_2">The alarm goes off at 4:30.I get up and....to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest. (answer the 2nd blank)</string>
     <string name="ques_1a2">go down</string>
     <string name="ques_1b2">goes down</string>
     <string name="ques_1c2">go sound</string>
@@ -69,7 +69,7 @@
     <string name="lis_dac1_2">1</string>
 
     //b1-3
-    <string name="lis_ques_1_3">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="lis_ques_1_3">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink...cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest. (answer the 3rd blank)</string>
     <string name="ques_1a3">seven</string>
     <string name="ques_1b3">some</string>
     <string name="ques_1c3">several</string>
@@ -77,7 +77,7 @@
     <string name="lis_dac1_3">3</string>
 
     //b1-4
-    <string name="lis_ques_1_4">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink several cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="lis_ques_1_4">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink several cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me...to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest. (answer the 4th blank)</string>
     <string name="ques_1a4">15 minutes</string>
     <string name="ques_1b4">45 minutes</string>
     <string name="ques_1c4">30 minutes</string>
@@ -85,7 +85,7 @@
     <string name="lis_dac1_4">2</string>
 
     //b1-5
-    <string name="lis_ques_1_5">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink several cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me 45 minutes to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.</string>
+    <string name="lis_ques_1_5">The alarm goes off at 4:30.I get up and go down to the kitchen to boil some water for my morning tea.I drink several cups of tea,have a quick breakfast and then lead the buffalo to the field.It takes me 45 minutes to get ready.I leave the house at a quarter past five and arrive in the field at exactly....I plough and harrow my plot of land and at a quarter to eight i take a short rest.(answer the 5th blank)</string>
     <string name="ques_1a5">5:15</string>
     <string name="ques_1b5">5:35</string>
     <string name="ques_1c5">5:45</string>
@@ -128,7 +128,7 @@
 
     //Bai 3
     //b3-1
-    <string name="lis_ques_3_1" >Hello.My name\'s Nguyen Hong Phong.I\'m...years old.I\'m a student at Chu Van An High School.I am in class....with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="lis_ques_3_1" >Hello.My name\'s Nguyen Hong Phong.I\'m...years old.I\'m a student at Chu Van An High School.I am in class....with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15. (answer the 1st blank)</string>
     <string name="ques_3a1">fifteen</string>
     <string name="ques_3b1">twelve</string>
     <string name="ques_3c1">sixteen</string>
@@ -136,7 +136,7 @@
     <string name="lis_dac3_1">3</string>
 
     //b3-2
-    <string name="lis_ques_3_2" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class....with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="lis_ques_3_2" >Hello.My name\'s Nguyen Hong Phong.I\'m sixteen years old.I\'m a student at Chu Van An High School.I am in class....with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15. (answer the 2nd blank)</string>
     <string name="ques_3a2">10A</string>
     <string name="ques_3b2">11A</string>
     <string name="ques_3c2">10D</string>
@@ -144,7 +144,7 @@
     <string name="lis_dac3_2">1</string>
 
     //b3-3
-    <string name="lis_ques_3_3" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="lis_ques_3_3" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with....other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15. (answer the 3rd blank)</string>
     <string name="ques_3a3">forty-five</string>
     <string name="ques_3b3">fifty-five</string>
     <string name="ques_3c3">thiry-five</string>
@@ -152,7 +152,7 @@
     <string name="lis_dac3_3">1</string>
 
     //b3-4
-    <string name="lis_ques_3_4" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with forty-five other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="lis_ques_3_4" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with forty-five other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and...I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15. (answer the 4th blank)</string>
     <string name="ques_3a4">go on</string>
     <string name="ques_3b4">so on</string>
     <string name="ques_3c4">goes on</string>
@@ -160,7 +160,7 @@
     <string name="lis_dac3_4">2</string>
 
     //b3-5
-    <string name="lis_ques_3_5" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with forty-five other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and so on.I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15.</string>
+    <string name="lis_ques_3_5" >Hello.My name\'s Nguyen Hong Phong.I\'m fifteen years old.I\'m a student at Chu Van An High School.I am in class 10A with forty-five other students.I study many subjects such as Mahts,Physics,Chemistry,Biology,Literature,History,Geography,and so on.I like to learn English best because it is an....language.I don\'t really like getting up early,but i have to because i often have a lesson at 7:15. (answer the 5th blank)</string>
     <string name="ques_3a5">national</string>
     <string name="ques_3b5">nation</string>
     <string name="ques_3c5">nationaility</string>
