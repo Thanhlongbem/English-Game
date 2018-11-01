@@ -26,14 +26,14 @@
             android:text="You need choose type of grammar to continue"/>
 
         <Button
-            android:id="@+id/btnTenseGRM"
+            android:id="@+id/btnGerundToVerbGRM"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:background="@drawable/button"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="Tense"/>
+            android:text="Gerund To Verb"/>
         <Button
             android:id="@+id/btnPassiveVoiceGRM"
             android:layout_width="200dp"
@@ -44,15 +44,6 @@
             android:gravity="center"
             android:text="Passive voice"/>
         <Button
-            android:id="@+id/btnGerundToVerbGRM"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/button"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Gerund To Verb"/>
-        <Button
             android:id="@+id/btnRelativeClauseGRM"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
@@ -61,6 +52,16 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="Relative Clause"/>
+        <Button
+            android:id="@+id/btnTenseGRM"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Tense"/>
+
 
 
 

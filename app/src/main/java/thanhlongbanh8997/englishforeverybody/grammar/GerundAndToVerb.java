@@ -1,8 +1,10 @@
 package thanhlongbanh8997.englishforeverybody.grammar;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
@@ -12,6 +14,7 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -24,6 +27,7 @@ import java.util.Random;
 import thanhlongbanh8997.englishforeverybody.ActivityChampion;
 import thanhlongbanh8997.englishforeverybody.MainActivity;
 import thanhlongbanh8997.englishforeverybody.R;
+import thanhlongbanh8997.englishforeverybody.fragment.InfomationFragment;
 
 public class GerundAndToVerb extends AppCompatActivity {
     TextView tvQuestion;
@@ -43,7 +47,9 @@ public class GerundAndToVerb extends AppCompatActivity {
     TextView tv_grm_state;
     CountDownTimer count;
     TextView tvGrammarMoney;
-    MediaPlayer mPlayer;
+
+
+    String soTienDatDuoc;
 
     public int timeCountDown15 = 30000;
     public int timeCountDown610 = 30000;
@@ -52,6 +58,7 @@ public class GerundAndToVerb extends AppCompatActivity {
     public static int da = 0;
     public int kq_grm = 0;
     public int random = 0;
+    public int highScore;
 
     public static final int S1 = R.raw.nam_cau_dau;
     public static final int S2 = R.raw.nam_cau_giua;
@@ -102,6 +109,14 @@ public class GerundAndToVerb extends AppCompatActivity {
         btn_save_grammar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SharedPreferences sharedPreferences = getSharedPreferences("SPFolder", Context.MODE_PRIVATE);
+                highScore = sharedPreferences.getInt("GRAM_gatv",0);
+                if( i-1 > highScore ){
+                    highScore = i-1;
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putInt("GRAM_gatv", highScore);
+                    editor.commit();
+                }
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
@@ -114,8 +129,6 @@ public class GerundAndToVerb extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
 
 
 
@@ -273,6 +286,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown15);
                         tvGrammarMoney.setText(R.string.cau1);
+                        soTienDatDuoc = "R.string.cau1";
                         break;
                     case 2:
                         i++;
@@ -313,6 +327,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown15);
                         tvGrammarMoney.setText(R.string.cau2);
+                        soTienDatDuoc = "R.string.cau2";
                         break;
                     case 3:
                         i++;
@@ -353,6 +368,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown15);
                         tvGrammarMoney.setText(R.string.cau3);
+                        soTienDatDuoc = "R.string.cau3";
                         break;
                     case 4:
                         i++;
@@ -393,6 +409,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown15);
                         tvGrammarMoney.setText(R.string.cau4);
+                        soTienDatDuoc = "R.string.cau4";
                         break;
                     case 5:
                         i++;
@@ -433,6 +450,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown610);
                         tvGrammarMoney.setText(R.string.cau5);
+                        soTienDatDuoc = "R.string.cau5";
                         break;
                     case 6:
                         i++;
@@ -473,6 +491,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown610);
                         tvGrammarMoney.setText(R.string.cau6);
+                        soTienDatDuoc = "R.string.cau6";
                         break;
                     case 7:
                         i++;
@@ -513,6 +532,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown610);
                         tvGrammarMoney.setText(R.string.cau7);
+                        soTienDatDuoc = "R.string.cau7";
                         break;
                     case 8:
                         i++;
@@ -553,6 +573,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown610);
                         tvGrammarMoney.setText(R.string.cau8);
+                        soTienDatDuoc = "R.string.cau8";
                         break;
                     case 9:
                         i++;
@@ -593,6 +614,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown610);
                         tvGrammarMoney.setText(R.string.cau9);
+                        soTienDatDuoc = "R.string.cau9";
                         break;
                     case 10:
                         i++;
@@ -633,6 +655,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown1115);
                         tvGrammarMoney.setText(R.string.cau10);
+                        soTienDatDuoc = "R.string.cau10";
                         break;
                     case 11:
                         i++;
@@ -673,6 +696,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown1115);
                         tvGrammarMoney.setText(R.string.cau11);
+                        soTienDatDuoc = "R.string.cau11";
                         break;
                     case 12:
                         i++;
@@ -713,6 +737,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown1115);
                         tvGrammarMoney.setText(R.string.cau12);
+                        soTienDatDuoc = "R.string.cau12";
                         break;
                     case 13:
                         i++;
@@ -753,6 +778,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown1115);
                         tvGrammarMoney.setText(R.string.cau13);
+                        soTienDatDuoc = "R.string.cau13";
                         break;
                     case 14:
                         i++;
@@ -793,10 +819,8 @@ public class GerundAndToVerb extends AppCompatActivity {
                         }
                         countDownTimer(timeCountDown1115);
                         tvGrammarMoney.setText(R.string.cau14);
+                        soTienDatDuoc = "R.string.cau14";
                         break;
-                    case 15:
-                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                        startActivity(intent);
 
                 }
                 tvGrmCountDown.setVisibility(View.VISIBLE);
@@ -903,6 +927,7 @@ public class GerundAndToVerb extends AppCompatActivity {
                         String toSpeak = "Congratulation";
                         Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
                         t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+
                         Intent intent = new Intent(getApplicationContext(), ActivityChampion.class);
                         startActivity(intent);
                     }else{
@@ -990,4 +1015,5 @@ public class GerundAndToVerb extends AppCompatActivity {
         super.onBackPressed();
         finish();
     }
+
 }

@@ -1,7 +1,9 @@
 package thanhlongbanh8997.englishforeverybody;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,12 +22,15 @@ public class MainActivity extends AppCompatActivity {
     Button btn_home_vocabulary;
     EditText startUserName;
     Button startOK;
+    SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
+        //initDataUser();
         btn_home_start = findViewById(R.id.btn_home_start);
         btn_home_vocabulary = findViewById(R.id.btn_home_vocabulary);
 
@@ -51,11 +56,27 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void initDataUser(){
+        sharedPreferences = getSharedPreferences("SPFolder", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("GRAM_gatv", 0);
+        editor.putInt("GRM_pq", 0);
+        editor.putInt("GRM_rc", 0);
+        editor.putInt("GRM_tq", 0);
+        editor.putInt("LIS", 0);
+        editor.commit();
+    }
+
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        System.exit(1);
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);//***Change Here***
+        startActivity(intent);
+        finish();
+        System.exit(0);
 
     }
 

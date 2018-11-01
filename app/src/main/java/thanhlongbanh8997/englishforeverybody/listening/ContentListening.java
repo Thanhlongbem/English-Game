@@ -1,7 +1,9 @@
 package thanhlongbanh8997.englishforeverybody.listening;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
@@ -16,6 +18,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import java.util.Locale;
 
 import thanhlongbanh8997.englishforeverybody.ActivityChampion;
 import thanhlongbanh8997.englishforeverybody.MainActivity;
@@ -34,7 +38,7 @@ public class ContentListening extends AppCompatActivity {
     TextView tvQuestionLis;
     CountDownTimer count;
     TextView tvLisCountDown;
-    //TextToSpeech t1;
+    TextToSpeech t1;
     Button btn_next_lis;
     Button btn_ok_lis;
     Button btn_save_lis;
@@ -51,13 +55,22 @@ public class ContentListening extends AppCompatActivity {
 
 
     public int timeCountDown15 = 30000;
-    public int timeCountDown610 = 30000;
-    public int timeCountDown1115 = 30000;
+    public int highScore;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listening_content);
+
+        //-------------------------------Khởi tạo đẻ nói
+        t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if(status != TextToSpeech.ERROR) {
+                    t1.setLanguage(Locale.UK);
+                }
+            }
+        });
         initView();
         initClickAnswer();
         initClick();
@@ -175,6 +188,14 @@ public class ContentListening extends AppCompatActivity {
         btn_save_lis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SharedPreferences sharedPreferences = getSharedPreferences("SPFolder", Context.MODE_PRIVATE);
+                highScore = sharedPreferences.getInt("LIS",0);
+                if( i-1 > highScore ){
+                    highScore = i-1;
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putInt("LIS", highScore);
+                    editor.commit();
+                }
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
@@ -734,11 +755,14 @@ public class ContentListening extends AppCompatActivity {
                 tvLisCountDown.setVisibility(View.GONE);
                 btn_continue_lis.setVisibility(View.GONE);
                 if(kq_lis == dapAn){
+                    String toSpeak = "very good";
+                    t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
                     fillColor(kq_lis);
                     btn_next_lis.setVisibility(View.VISIBLE);
                     //String toSpeak = "well done";
                     //t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
                 }else {
+                    t1.speak("Incorrect", TextToSpeech.QUEUE_FLUSH, null);
                     fillColor(kq_lis);
                     btn_save_lis.setVisibility(View.VISIBLE);
                     btn_dont_save_lis.setVisibility(View.VISIBLE);
@@ -787,9 +811,10 @@ public class ContentListening extends AppCompatActivity {
                         fillColor(kq_lis);
                         btn_next_lis.setVisibility(View.VISIBLE);
                         mp.stop();
-                        //String toSpeak = "well done";
-                        //t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+                        String toSpeak = "very good";
+                        t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
                     }else{
+                        t1.speak("Incorrect", TextToSpeech.QUEUE_FLUSH, null);
                         count.cancel();
                         fillColor(kq_lis);
                         btn_save_lis.setVisibility(View.VISIBLE);
@@ -797,6 +822,8 @@ public class ContentListening extends AppCompatActivity {
                     }
                 }else{
                     if(dapAn == kq_lis){
+                        String toSpeak = "very good";
+                        t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
                         dialogInterface.dismiss();
                         count.cancel();
                         mp.stop();
@@ -807,6 +834,7 @@ public class ContentListening extends AppCompatActivity {
                         Intent intent = new Intent(getApplicationContext(), ActivityChampion.class);
                         startActivity(intent);
                     }else{
+                        t1.speak("Incorrect", TextToSpeech.QUEUE_FLUSH, null);
                         count.cancel();
                         mp.stop();
                         fillColor(kq_lis);

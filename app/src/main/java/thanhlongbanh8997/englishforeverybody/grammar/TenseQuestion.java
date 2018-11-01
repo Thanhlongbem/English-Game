@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -53,6 +54,7 @@ public class TenseQuestion extends AppCompatActivity {
     public int i=1;
     public static int da = 0;
     public int kq_grm = 0;
+    public int highScore;
 
 
     public int random = 0;
@@ -99,6 +101,14 @@ public class TenseQuestion extends AppCompatActivity {
         btn_save_grammar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SharedPreferences sharedPreferences = getSharedPreferences("SPFolder", Context.MODE_PRIVATE);
+                highScore = sharedPreferences.getInt("GRM_tq",0);
+                if( i-1 > highScore ){
+                    highScore = i-1;
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putInt("GRM_tq", highScore);
+                    editor.commit();
+                }
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
