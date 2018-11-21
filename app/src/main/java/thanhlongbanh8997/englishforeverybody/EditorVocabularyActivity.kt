@@ -27,6 +27,7 @@ import android.os.Build
 import android.os.PowerManager
 import android.support.design.widget.FloatingActionButton
 import android.support.v7.widget.CardView
+import android.util.Log
 import android.widget.*
 import kotlinx.android.synthetic.main.dialog_setting.*
 import org.jetbrains.anko.sdk25.coroutines.onCheckedChange
@@ -44,6 +45,8 @@ import java.io.ByteArrayOutputStream
 
 class EditorVocabularyActivity: BaseToolbarActivity(), AnkoLogger {
 
+
+    //Long dep trai
     override var layout: Int = R.layout.activity_editor_vocabulary
 
     companion object {
@@ -255,13 +258,14 @@ class EditorVocabularyActivity: BaseToolbarActivity(), AnkoLogger {
         info { "Default lang = $lang" }
 
         val url = "${ServiceAPI.GOOGLE_TRANSLATE}?client=gtx&sl=auto&tl=$lang&dt=t&dt=md&hl=auto&q=${keyword.trim().replace(" ", "+")}"
-
+        Log.e("BANHLONG", ServiceAPI.GOOGLE_TRANSLATE)
         val dialog = ProgressDialog.show(this@EditorVocabularyActivity, "", getString(R.string.dialog_loading_message), true)
         RequestAPI.get(this@EditorVocabularyActivity, url, null, dialog) {
             success, status, msg, data ->
             if (success) {
                 info { data.toString() }
                 val jsonArray = JSONArray(data)
+                Log.e("BANHBEO", data)
                 if (jsonArray.length() > 0) {
                     val jMean = jsonArray.getJSONArray(0)?.getJSONArray(0)
                     this.dialog.edtMean.setText(jMean?.get(0).toString())

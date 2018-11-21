@@ -3,8 +3,10 @@ package thanhlongbanh8997.englishforeverybody.fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -17,11 +19,16 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 import thanhlongbanh8997.englishforeverybody.R;
 
 import static android.app.Activity.RESULT_OK;
 
 public class InfomationFragment extends Fragment {
+    private static final int CAMERA_REQUEST = 1888;
     View v;
     ImageView imgUser;
     Button chooseImageFromGallery;
@@ -32,6 +39,9 @@ public class InfomationFragment extends Fragment {
     TextView userRelativeClause;
     TextView userGrammarTense;
     TextView userLisScore;
+
+    private File output=null;
+    File dir;
 
     public InfomationFragment() {
     }
@@ -45,6 +55,7 @@ public class InfomationFragment extends Fragment {
         initView();
         initScoreDefault();
 
+        dir= Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM);
 
 
         imgUser = v.findViewById(R.id.imgUser);
@@ -98,6 +109,7 @@ public class InfomationFragment extends Fragment {
                 if(resultCode == RESULT_OK){
                     Uri selectedImage = imageReturnedIntent.getData();
                     imgUser.setImageURI(selectedImage);
+
                 }
 
                 break;
@@ -106,6 +118,9 @@ public class InfomationFragment extends Fragment {
                     Uri selectedImage = imageReturnedIntent.getData();
                     imgUser.setImageURI(selectedImage);
                 }
+                break;
+            default:
+                imgUser.setImageResource(R.drawable.ic_default_man);
                 break;
         }
 
@@ -126,10 +141,28 @@ public class InfomationFragment extends Fragment {
         usingCamera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent takePicture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(takePicture, 0);//zero can be replaced with any action code
+                Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+
+                output=new File(dir, "avatar.jpg");
+                cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(output));
+                startActivityForResult(cameraIntent, 0);
             }
         });
-
     }
+
+    private void saveImage(String resultCODE){
+        File file;
+        FileOutputStream outputStream;
+        try {
+            file = new File(Environment.getExternalStorageDirectory(), "avatar.jpg");
+            //Log.d("MainActivity", Environment.getExternalStorageDirectory().getAbsolutePath());
+            outputStream = new FileOutputStream(file,true);
+            outputStream.write(resultCODE.getBytes());
+            outputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }

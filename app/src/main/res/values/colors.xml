@@ -15,4 +15,6 @@
     <color name="yellow_light">#ffff00</color>
     <color name="pink_light">#fc7e81</color>
     <color name="vocabulary_wallpaper">#60000000</color>
+
+    <color name="back_user">#b8effc</color>
 </resources>
